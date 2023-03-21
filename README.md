@@ -18,13 +18,15 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 To use this script, you need to provide the following arguments:
 
 job_title: the job title to search for on LinkedIn
+
 location: the location to search for jobs in on LinkedIn
+
+
 pages: the number of pages of job listings to scrape (optional, default is 1)
-Here's an example of how to use the script:
+
+### Here's an example of how to use the script:
 
 ```python
-from linkedin_job_scraper import scrape_linkedin_jobs
-
 job_title = "data scientist"
 location = "New York City"
 pages = 3
